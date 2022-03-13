@@ -207,6 +207,10 @@ class Transformer(Protocol):
         ...
 
     @property
+    def encoding(self) -> str:
+        ...
+
+    @property
     def adapters(self) -> "AdaptersMap":
         ...
 
